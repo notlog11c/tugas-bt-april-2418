@@ -15,22 +15,22 @@ class laptop {
     }
 }
 
-$laptop_anto = new laptop();
+$laptop_notlog11c = new laptop();
 
-$laptop_anto->pemilik="notlog11c";
-$laptop_anto->merk="HP";
-$laptop_anto->ukuran_layar="15 inchi";
+$laptop_notlog11c->pemilik="notlog11c";
+$laptop_notlog11c->merk="HP";
+$laptop_notlog11c->ukuran_layar="15 inchi";
 
-echo $laptop_anto->pemilik;
+echo $laptop_notlog11c->pemilik;
 echo "<br>";
-echo $laptop_anto->merk;
+echo $laptop_notlog11c->merk;
 echo "<br>";
-echo $laptop_anto->ukuran_layar;
+echo $laptop_notlog11c->ukuran_layar;
 echo "<br>";
 
 //tampikan method
-echo $laptop_anto->hidupkan_laptop;
+echo $laptop_notlog11c->hidupkan_laptop;
 echo "<br>";
-echo $laptop_anto->matikan_laptop;
+echo $laptop_notlog11c->matikan_laptop;
 
 ?>
