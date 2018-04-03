@@ -15,11 +15,22 @@ class laptop {
     }
 }
 
+// class komputer {
+  
+//     private $jenis_komputer = "PC Gaming";
+  
+//       public function apanamakomputer(){
+//             return $this->jenis_komputer;
+//         }
+// }
+
+
 $laptop_notlog11c = new laptop();
 $laptop_angkrek = new laptop();
+//$komputerku = new komputer();
 
 //ini juga cobaaa
-$laptop_notlog11c->pemilik="notlog11c";
+$laptop_notlog11c->pemilik="notlogic";
 $laptop_notlog11c->merk="HP";
 $laptop_notlog11c->ukuran_layar="15 inchi";
 
@@ -27,6 +38,10 @@ $laptop_notlog11c->ukuran_layar="15 inchi";
 $laptop_angkrek->pemilik="angkrek";
 $laptop_angkrek->merk="asus";
 $laptop_angkrek->ukuran_layar="22 inchi";
+
+//coba private
+
+echo "<br";
 
 // tampilkan property
 echo $laptop_notlog11c->pemilik;
@@ -49,4 +64,5 @@ echo $laptop_angkrek->merk;
 echo "<br>";
 echo $laptop_angkrek->ukuran_layar;
 
+//echo $komputerku->apanamakomputer();
 ?>
