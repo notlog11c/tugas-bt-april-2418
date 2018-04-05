@@ -17,7 +17,7 @@ include "alarm.php";
     <h1>Selamat Datang</h1>
     <br>
 
-    <form action = "alarm()" method = "post">
+    <form action = "alarm.php" method = "post">
         <label>Waktu :</label>
         <input type="text" name="waktu" placeholder="Masukkan Waktu"><br>
         <label>Alarm :</label>
