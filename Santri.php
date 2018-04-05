@@ -3,7 +3,7 @@
 class Santri
 {
     public $nama;
-    public $umur;
+    private $umur;
 
     public function __construct($nama)
     {
@@ -12,7 +12,7 @@ class Santri
 
     public function getUmur()
     {
-        return $this->umur;
+        return 'Umur anda ' .  $this->umur . ' tahun atau ' . $this->umur *365 . ' hari';
     }
 
     public function setUmur($umur)
